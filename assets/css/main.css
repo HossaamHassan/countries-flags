@@ -1,0 +1,50 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #fafafa;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+/* Start Flags */
+.flags .box {
+  border-radius: 20px;
+  webkit-box-shadow: 0 1px 3px rgba(35, 35, 35, 0.15);
+  -moz-box-shadow: 0 1px 3px rgba(35, 35, 35, 0.15);
+  box-shadow: 0 1px 3px rgba(35, 35, 35, 0.15);
+  background-color: white;
+}
+
+.flags .box .pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flags .box svg {
+  width: 70px;
+  height: 70px;
+}
+.flags .box .image {
+  width: 50px;
+  height: 50px;
+}
+.flags .box .icon {
+  width: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.flags .box .count {
+  font-size: 1.5rem;
+}
+/* End Flags */
